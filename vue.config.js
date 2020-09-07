@@ -8,7 +8,7 @@ module.exports = {
   },
   chainWebpack: (config) => {
     config.plugin("html").tap((args) => {
-      args[0].title = "Every Day";
+      args[0].title = "One Day";
       return args;
     });
   },
