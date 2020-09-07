@@ -37,11 +37,11 @@ export default {
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style lang="less">
 .hello {
-  width: 600px;
+  max-width: 600px;
+  width: 90%;
   margin: 0 auto;
   &__img {
     width: 100%;
-    height: 337.5px;
   }
   .text-left {
     text-align: left;
